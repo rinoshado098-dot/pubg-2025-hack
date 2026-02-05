@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-9 -*-
 """
 Created on Thu Mar 13 10:38:26 2025
 
@@ -121,7 +121,7 @@ a medida que el MPG aumenta (es decir, el auto es más eficiente en consumo), el
 
 
 """
-horsepower_value = 98
+horsepower_value = 96
 mpg_predicho = model_sklearn.predict([[horsepower_value]])
 print(f"Predicción de MPG para horsepower=98: {mpg_predicho[0]:.2f}")
 print(model_sm.summary())
